@@ -139,8 +139,8 @@ else
 end
 
 local Window = WindUI:CreateWindow({
-    Title = "KEVEN HUB",
-    Author = "KEVEN HUB",
+    Title = "Xnu HUB",
+    Author = "Xnu HUB",
     Folder = "Nexvyr_WindUI",
     Acrylic = false,
     Transparent = false,
@@ -149,7 +149,7 @@ local Window = WindUI:CreateWindow({
     Background = "rbxthumb://type=Asset&id=14653905878&w=420&h=420",
     BackgroundImageTransparency = 0.35,
     OpenButton = {
-        Title = "KEVEN HUB",
+        Title = "Xnu HUB",
         Icon = "rbxthumb://type=Asset&id=118232139384203&w=420&h=420",
         IconSize = 9,
         CornerRadius = UDim.new(1),
@@ -3208,7 +3208,7 @@ local function ApplySelectedBackground()
 end
 
 Tabs.Fondos:Button({
-    Title = "Aplicar fondo de KEVEN CABRA 🐐",
+    Title = "Aplicar fondo de Xnu  Hax 📄",
     Callback = function()
         if not ApplySelectedBackground() then
             warn("No se encontró el fondo de WindUI.")
@@ -3216,14 +3216,14 @@ Tabs.Fondos:Button({
     end
 })
 
--- KEVEN HUB: fondos listos para elegir, sin introducir IDs manualmente.
+-- Xnu HUB: fondos listos para elegir, sin introducir IDs manualmente.
 local FondoPlusSeleccionado = Backgrounds[1]
 local FondoPlusDropdown
 
-Tabs.FondosPlus:Section({ Title = "Fondos KEVEN CABRA 🐐", Icon = "solar:gallery-bold" })
+Tabs.FondosPlus:Section({ Title = "Fondos Xnu  Hax 📄", Icon = "solar:gallery-bold" })
 Tabs.FondosPlus:Paragraph({
     Title = "Elige y aplica, sin configuraciones",
-    Desc = "Selecciona un fondo de la lista y pulsa Aplicar fondo de KEVEN CABRA 🐐. Se conservan los fondos originales de KEVEN HUB."
+    Desc = "Selecciona un fondo de la lista y pulsa Aplicar fondo de Xnu  Hax 📄. Se conservan los fondos originales de Xnu  Hax 📄."
 })
 
 FondoPlusDropdown = Tabs.FondosPlus:Dropdown({
@@ -3243,14 +3243,14 @@ FondoPlusDropdown = Tabs.FondosPlus:Dropdown({
 })
 
 Tabs.FondosPlus:Button({
-    Title = "Aplicar fondo de KEVEN CABRA 🐐",
-    Desc = "Aplica el fondo que elegiste a la interfaz de KEVEN HUB.",
+    Title = "Aplicar fondo de Xnu  Hax 📄",
+    Desc = "Aplica el fondo que elegiste a la interfaz de Xnu HUB.",
     Icon = "solar:check-circle-bold",
     Variant = "Primary",
     Callback = function()
         SelectedFondo = FondoPlusSeleccionado
         if not ApplySelectedBackground() then
-            warn("KEVEN HUB: no se encontró la capa de fondo de WindUI.")
+            warn("Xnu HUB: no se encontró la capa de fondo de WindUI.")
         end
     end
 })
@@ -3633,7 +3633,7 @@ Tabs.Items:Toggle({
 Tabs.Com:Section({ Title = "Comunidad", Icon = "solar:chat-line-bold" })
 
 Tabs.Com:Paragraph({
-    Title = "Únete a los grupos para no perderte las novedades de KEVEN HUB.",
+    Title = "Únete a los grupos para no perderte las novedades de Xnu HUB.",
     Desc = "",
 })
 
@@ -3692,8 +3692,8 @@ local notesPara = nil
 Tabs.Owners:Section({ Title = "CREADOR OFICIAL", Icon = "solar:crown-bold" })
 
 ownersPara = Tabs.Owners:Paragraph({
-    Title = "<b>KEVEN HUB</b>",
-        Desc = "<font color='#FFD700'><b>[FOUNDER]</b></font> <b>KEVEN HUB</b>\nFundador y creador del proyecto KEVEN HUB",
+    Title = "<b>Xnu HUB</b>",
+        Desc = "<font color='#FFD700'><b>[FOUNDER]</b></font> <b>Xnu HUB</b>\nFundador y creador del proyecto Xnu HUB",
     Image = "rbxthumb://type=Asset&id=14653905878&w=420&h=420",
     ImageSize = 72
 })
@@ -3702,7 +3702,7 @@ Tabs.Owners:Section({ Title = "NOTAS", Icon = "solar:document-text-bold" })
 
 notesPara = Tabs.Owners:Paragraph({
     Title = "MENSAJE DEL CREADOR",
-    Desc = "Hola, bienvenido a KEVEN HUB. Gracias por usar KEVEN HUB y apoyar sus futuras actualizaciones."
+    Desc = "Hola, bienvenido a Xnu HUB. Gracias por usar Xnu HUB y apoyar sus futuras actualizaciones."
 })
 
 Tabs.Guardado:Section({ Title = "Gestor de Configs", Icon = "solar:diskette-bold" })
